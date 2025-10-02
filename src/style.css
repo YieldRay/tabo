@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
