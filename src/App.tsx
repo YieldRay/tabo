@@ -46,6 +46,7 @@ function Bookmark() {
       </Flex>
     );
   }
+  console.log(data);
 
   return (
     <Box className="w-screen h-screen">

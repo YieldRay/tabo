@@ -6,7 +6,7 @@ Tabo 是一个基于 **WXT 框架**的浏览器扩展（Edge/Firefox），用于
 ## 架构要点
 
 ### WXT Framework 核心
-- **入口点**: `entrypoints/newtab.html` → 使用 `@/src/main.tsx` 作为模块入口
+- **入口点**: `entrypoints/newtab.html` → 使用 `@/src/newtab.tsx` 作为模块入口
 - **配置**: `wxt.config.ts` 定义 manifest 权限（`bookmarks`）和 Vite 配置
 - **路径别名**: 使用 `@/` 前缀指向项目根目录（如 `@/src/hooks/bookmark`）
 - **TypeScript**: `tsconfig.json` extends `./.wxt/tsconfig.json`，React JSX 模式

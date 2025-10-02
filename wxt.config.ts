@@ -11,5 +11,8 @@ export default defineConfig({
   vite: () =>
     ({
       plugins: [tailwindcss()],
+      esbuild: {
+        drop: ["console", "debugger"],
+      },
     } as WxtViteConfig),
 });
