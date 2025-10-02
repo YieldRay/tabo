@@ -12,7 +12,8 @@ node_modules
 stats.html
 stats-*.json
 .wxt
-web-ext.config.ts
+# web-ext.config.ts
+dist
 
 # Editor directories and files
 .vscode/*
@@ -23,5 +24,3 @@ web-ext.config.ts
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
-*.mock.*
